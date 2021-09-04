@@ -4,24 +4,28 @@ const $$ = document.querySelectorAll.bind(document);
 
 const productList = [
     {
-        avt: "./assets/img/PeaSocialProfile.png",
-        link: "https://duckool.github.io/projects/myProfile/"
+        avt: "https://drive.google.com/uc?id=18u6XDISidqm4AVMEeiMkUV4RCAgL2OJ0",
+        link: "https://peakodev.github.io/PeaClock/"
+    },
+    {
+        avt: "https://drive.google.com/uc?id=1qH7r7z6AXWawgyojAyBSomaswyzwpVWo",
+        link: "https://peakodev.github.io/PeaMusicPlayer/"
     },
     {
         avt: "./assets/img/PeaSocialProfile.png",
-        link: "https://duckool.github.io/projects/myProfile/"
+        link: "https://peakodev.github.io/PeaSocialProfile/"
     },
     {
-        avt: "./assets/img/PeaSocialProfile.png",
-        link: "https://duckool.github.io/projects/myProfile/"
+        avt: "https://drive.google.com/uc?id=10ohFOfq261giBJdbEMbUp3mGCf2GQmwy",
+        link: "https://peakodev.github.io/PeaPomodoro/"
     },
     {
-        avt: "./assets/img/PeaSocialProfile.png",
-        link: "https://duckool.github.io/projects/myProfile/"
+        avt: "https://drive.google.com/uc?id=1zvEozVLonJ_ZI_pPbxjVf-UWqM4HmNPe",
+        link: "https://peakodev.github.io/PeaSnack/"
     },
     {
-        avt: "./assets/img/PeaSocialProfile.png",
-        link: "https://duckool.github.io/projects/myProfile/"
+        avt: "https://drive.google.com/uc?id=1VDQMkGlwHlvE0tZRRZezEwNr2OX4aF-r",
+        link: "https://peakodev.github.io/PeaTasks/"
     }
 ];
 
