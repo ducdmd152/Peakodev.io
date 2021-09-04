@@ -975,6 +975,7 @@ ul {
   padding: 20px;
 }
 .products .product {
+  margin-bottom: 12px;
   display: block;
   user-select: none;
   padding-top: 100%;
