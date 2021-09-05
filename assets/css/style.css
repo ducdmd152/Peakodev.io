@@ -85,9 +85,9 @@ ul {
 
 :root {
   --xs-gutter: 0px;
-  --s-gutter: 4px;
-  --m-gutter: 8px;
-  --l-gutter: 12px;
+  --s-gutter: 8px;
+  --m-gutter: 12px;
+  --l-gutter: 16px;
 }
 
 .grid {
@@ -900,10 +900,11 @@ ul {
   width: var(--avt-size);
   height: var(--avt-size);
   border-radius: 100rem;
-  animation: img-show 2s linear;
+  animation: img-show 3s linear;
 }
 @keyframes img-show {
   from {
+    opacity: 0;
     transform: scale(1.1);
     border: 1px solid #e77f89;
   }
@@ -921,7 +922,7 @@ ul {
   font-size: 10px;
   font-weight: 600;
   text-transform: uppercase;
-  animation: name-show 1s linear;
+  animation: name-show 1.5s linear;
 }
 @keyframes name-show {
   from {
@@ -975,7 +976,7 @@ ul {
   padding: 20px;
 }
 .products .product {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   display: block;
   user-select: none;
   padding-top: 100%;
@@ -990,8 +991,12 @@ ul {
   transition: all 0.3s;
   box-shadow: #ccc 2px 2px 4px;
 }
-.products .product::after {
-  content: "";
+@keyframes product-show {
+  to {
+    transform: scale(1.05);
+  }
+}
+.products .product .description {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1003,13 +1008,100 @@ ul {
   color: white;
   transition: all 0.3s;
   font-family: "DM sans";
+  text-align: center;
+  opacity: 0.2;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+@keyframes description-show {
+  40% {
+    opacity: 1;
+    backdrop-filter: blur(2px);
+  }
+  to {
+    opacity: 0.2;
+    backdrop-filter: blur(0);
+  }
 }
 .products .product:hover {
   transform: scale(1.05);
 }
-.products .product:hover::after {
-  content: "Click to go to page!";
+.products .product:hover .description {
+  opacity: 1;
   backdrop-filter: blur(2px);
+}
+
+.notification .toasts {
+  position: fixed;
+  bottom: 16px;
+  left: 16px;
+  z-index: 2;
+}
+.notification .toasts .toast {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  min-width: 360px;
+  max-width: 450px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
+  transition: all linear 0.3s;
+  backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 3px;
+  border: 2px solid;
+  border-left: initial;
+  position: relative;
+}
+.notification .toasts .toast::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 8px;
+  height: 80%;
+  border-left: 4px solid;
+  border-radius: 20px;
+}
+.notification .toasts .toast + .toast {
+  margin-top: 24px;
+}
+.notification .toasts .toast__icon {
+  padding: 8px;
+  margin-left: 16px;
+  font-size: 24px;
+}
+.notification .toasts .toast__body {
+  flex-grow: 1;
+  padding: 8px;
+}
+.notification .toasts .toast__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+.notification .toasts .toast__msg {
+  font-size: 15px;
+  color: #333;
+  margin-top: 6px;
+  line-height: 1.5;
+}
+.notification .toasts .toast__close {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px;
+  margin-right: 8px;
+  color: #888;
+}
+.notification .toasts .toast__close:hover {
+  opacity: 0.5;
+}
+.notification .toasts .toast--success {
+  color: #47d764;
+}
+.notification .toasts .toast--warning {
+  color: #ffc021;
+}
+.notification .toasts .toast--danger {
+  color: #ff623d;
 }
 
 body {
@@ -1032,6 +1124,25 @@ body::-webkit-scrollbar-thumb {
 }
 body::-webkit-scrollbar-thumb:hover {
   background: var(--thumb-hover);
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(calc(-100% - 32px));
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
