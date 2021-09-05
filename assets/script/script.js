@@ -42,10 +42,10 @@ const productList = [
         avt: "https://drive.google.com/uc?id=1Fmj0OdxYojhlIRFVeTbyiTr-2SYj3qNU",
         link: "https://peakodev.github.io/PeaFashionStore/"
     },
-    {
-        avt: "https://drive.google.com/uc?id=1fJ6DpAuqBN0jwhbdyMO_Z_7n4dEsqqvq",
-        link: "https://peakodev.github.io/ShopeeUI/"
-    },
+    // {
+    //    avt: "https://drive.google.com/uc?id=1fJ6DpAuqBN0jwhbdyMO_Z_7n4dEsqqvq",
+    //    link: "https://peakodev.github.io/ShopeeUI/"
+    //},
     {
         avt: "https://drive.google.com/uc?id=1UB_-vqkYW1TMCPFrRBPkroI3x7aAvK7_",
         link: "https://peakodev.github.io/PeaDayTasks/"
