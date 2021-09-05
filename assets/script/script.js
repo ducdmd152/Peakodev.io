@@ -29,43 +29,31 @@ const productList = [
     },
     {
         avt: "./assets/img/PeaSocialProfile.png",
-        link: "https://duckool.github.io/projects/myProfile/"
+        link: "https://peakodev.github.io/PeaFashionStore/"
     },
     {
         avt: "./assets/img/PeaSocialProfile.png",
-        link: "https://duckool.github.io/projects/myProfile/"
+        link: "https://peakodev.github.io/PeaDayTasks/"
     },
     {
         avt: "./assets/img/PeaSocialProfile.png",
-        link: "https://duckool.github.io/projects/myProfile/"
+        link: "https://peakodev.github.io/Peacoin/"
     },
     {
         avt: "./assets/img/PeaSocialProfile.png",
-        link: "https://duckool.github.io/projects/myProfile/"
+        link: "https://peakodev.github.io/PeaCaro/"
     },
     {
         avt: "./assets/img/PeaSocialProfile.png",
-        link: "https://duckool.github.io/projects/myProfile/"
+        link: "https://peakodev.github.io/PeaCalculator/"
     },
     {
         avt: "./assets/img/PeaSocialProfile.png",
-        link: "https://duckool.github.io/projects/myProfile/"
+        link: "https://peakodev.github.io/PeaGoDrag/"
     },
     {
         avt: "./assets/img/PeaSocialProfile.png",
-        link: "https://duckool.github.io/projects/myProfile/"
-    },
-    {
-        avt: "./assets/img/PeaSocialProfile.png",
-        link: "https://duckool.github.io/projects/myProfile/"
-    },
-    {
-        avt: "./assets/img/PeaSocialProfile.png",
-        link: "https://duckool.github.io/projects/myProfile/"
-    },
-    {
-        avt: "./assets/img/PeaSocialProfile.png",
-        link: "https://duckool.github.io/projects/myProfile/"
+        link: "https://peakodev.github.io/ShopeeUI/"
     }
 ];
 
