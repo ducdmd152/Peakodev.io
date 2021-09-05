@@ -900,7 +900,7 @@ ul {
   width: var(--avt-size);
   height: var(--avt-size);
   border-radius: 100rem;
-  animation: img-show 3s linear;
+  animation: img-show 2.5s linear;
 }
 @keyframes img-show {
   from {
@@ -909,7 +909,14 @@ ul {
     border: 1px solid #e77f89;
   }
   50% {
+    opacity: 1;
+  }
+
+  55% {
     border: 0.1px solid #e77f89;
+  }
+  to {
+
   }
 }
 #welcome .avatar .name {
@@ -968,6 +975,7 @@ ul {
   from {
     opacity: 0.8;
     transform: translateX(10%);
+    width: 56%;
   }
 }
 
