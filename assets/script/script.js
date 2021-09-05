@@ -26,6 +26,11 @@ const productList = [
         avt: "https://drive.google.com/uc?id=1VDQMkGlwHlvE0tZRRZezEwNr2OX4aF-r",
         link: "https://peakodev.github.io/PeaTasks/"
     },
+    
+    {
+        avt: "https://drive.google.com/uc?id=1HcN07tyFCdgUE9liS5nvtsKieqiNkt9O",
+        link: "https://peakodev.github.io/PeaCaro/"
+    },
     {
         avt: "https://drive.google.com/uc?id=1Fmj0OdxYojhlIRFVeTbyiTr-2SYj3qNU",
         link: "https://peakodev.github.io/PeaFashionStore/"
@@ -35,16 +40,12 @@ const productList = [
         link: "https://peakodev.github.io/PeaDayTasks/"
     },
     {
-        avt: "./assets/img/PeaSocialProfile.png",
-        link: "https://peakodev.github.io/Peacoin/"
-    },
-    {
-        avt: "./assets/img/PeaSocialProfile.png",
-        link: "https://peakodev.github.io/PeaCaro/"
-    },
-    {
         avt: "https://drive.google.com/uc?id=1iCwXUGd7So_FJ2Mg-ylnom2bluYkBSeO",
         link: "https://peakodev.github.io/PeaCalculator/"
+    },
+    {
+        avt: "https://drive.google.com/uc?id=1zTtVai4ezfZA4CO-FyLkOnVsnCKE3M2H",
+        link: "https://peakodev.github.io/Peacoin/"
     },
     {
         avt: "https://drive.google.com/uc?id=1fhPx2VzgYXNVEjfS4OAJgesaBmJvn8mk",
