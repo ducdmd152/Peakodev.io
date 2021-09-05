@@ -26,8 +26,50 @@ const productList = [
     {
         avt: "https://drive.google.com/uc?id=1VDQMkGlwHlvE0tZRRZezEwNr2OX4aF-r",
         link: "https://peakodev.github.io/PeaTasks/"
+    },
+    {
+        avt: "./assets/img/PeaSocialProfile.png",
+        link: "https://duckool.github.io/projects/myProfile/"
+    },
+    {
+        avt: "./assets/img/PeaSocialProfile.png",
+        link: "https://duckool.github.io/projects/myProfile/"
+    },
+    {
+        avt: "./assets/img/PeaSocialProfile.png",
+        link: "https://duckool.github.io/projects/myProfile/"
+    },
+    {
+        avt: "./assets/img/PeaSocialProfile.png",
+        link: "https://duckool.github.io/projects/myProfile/"
+    },
+    {
+        avt: "./assets/img/PeaSocialProfile.png",
+        link: "https://duckool.github.io/projects/myProfile/"
+    },
+    {
+        avt: "./assets/img/PeaSocialProfile.png",
+        link: "https://duckool.github.io/projects/myProfile/"
+    },
+    {
+        avt: "./assets/img/PeaSocialProfile.png",
+        link: "https://duckool.github.io/projects/myProfile/"
+    },
+    {
+        avt: "./assets/img/PeaSocialProfile.png",
+        link: "https://duckool.github.io/projects/myProfile/"
+    },
+    {
+        avt: "./assets/img/PeaSocialProfile.png",
+        link: "https://duckool.github.io/projects/myProfile/"
+    },
+    {
+        avt: "./assets/img/PeaSocialProfile.png",
+        link: "https://duckool.github.io/projects/myProfile/"
     }
 ];
+
+const productListE = [];
 
 const productsRow = $('.products .grid .row');
 
@@ -37,11 +79,18 @@ const app = {
     },
     render: function() {
         for(let item of productList) {
-            productsRow.innerHTML +=
-            `<div class="col l-2 m-3 s-4 xs-12">
-                <a target="_blank" href="${item.link}" class="product" style="background-image: url(${item.avt});">
-                </a>
-            </div>`
+            let newProduct = document.createElement('div')
+            newProduct.className = 'col l-2 m-3 s-4 xs-12'
+            newProduct.innerHTML = `
+              <a target="_blank" href="${item.link}" class="product" style="background-image: url(${item.avt});">
+                <div class="description">
+                    "Click to go to page!"
+                </div>
+              </a>
+            `
+
+            productsRow.append(newProduct);
+            productListE.push(newProduct);
         }
     },
     handleEvents: function() {
@@ -56,7 +105,17 @@ const app = {
 window.onload = (event) => {
     setTimeout(() => {
         $('#welcome').style.height = '50vh';
-        $('.products').style.display = 'block';         
+        $('.products').style.display = 'block'; 
         app.start();
-    },3000)
+
+        setTimeout(() => {
+            toast({
+                title: 'Hi guy,',
+                msg: 'Click on the products to explore.',
+                type: 'success',
+                duration: 5000
+            })
+        },1000)
+          
+    },3500)
 };
