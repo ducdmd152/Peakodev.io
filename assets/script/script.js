@@ -1,7 +1,6 @@
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
-
 const productList = [
     {
         avt: "https://drive.google.com/uc?id=18u6XDISidqm4AVMEeiMkUV4RCAgL2OJ0",
@@ -28,11 +27,11 @@ const productList = [
         link: "https://peakodev.github.io/PeaTasks/"
     },
     {
-        avt: "./assets/img/PeaSocialProfile.png",
+        avt: "https://drive.google.com/uc?id=1Fmj0OdxYojhlIRFVeTbyiTr-2SYj3qNU",
         link: "https://peakodev.github.io/PeaFashionStore/"
     },
     {
-        avt: "./assets/img/PeaSocialProfile.png",
+        avt: "https://drive.google.com/uc?id=1UB_-vqkYW1TMCPFrRBPkroI3x7aAvK7_",
         link: "https://peakodev.github.io/PeaDayTasks/"
     },
     {
@@ -44,15 +43,15 @@ const productList = [
         link: "https://peakodev.github.io/PeaCaro/"
     },
     {
-        avt: "./assets/img/PeaSocialProfile.png",
+        avt: "https://drive.google.com/uc?id=1iCwXUGd7So_FJ2Mg-ylnom2bluYkBSeO",
         link: "https://peakodev.github.io/PeaCalculator/"
     },
     {
-        avt: "./assets/img/PeaSocialProfile.png",
+        avt: "https://drive.google.com/uc?id=1fhPx2VzgYXNVEjfS4OAJgesaBmJvn8mk",
         link: "https://peakodev.github.io/PeaGoDrag/"
     },
     {
-        avt: "./assets/img/PeaSocialProfile.png",
+        avt: "https://drive.google.com/uc?id=1fJ6DpAuqBN0jwhbdyMO_Z_7n4dEsqqvq",
         link: "https://peakodev.github.io/ShopeeUI/"
     }
 ];
@@ -103,7 +102,7 @@ window.onload = (event) => {
                 type: 'success',
                 duration: 5000
             })
-        },1000)
+        },2000)
           
     },3500)
 };
