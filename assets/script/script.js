@@ -3,8 +3,8 @@ const $$ = document.querySelectorAll.bind(document);
 
 const productList = [
     {
-        avt: "https://drive.google.com/uc?id=1UB_-vqkYW1TMCPFrRBPkroI3x7aAvK7_",
-        link: "https://peakodev.github.io/PeaDayTasks/"
+        avt: "https://drive.google.com/uc?id=1VDQMkGlwHlvE0tZRRZezEwNr2OX4aF-r",
+        link: "https://peakodev.github.io/PeaTasks/"
     },
     {
         avt: "https://drive.google.com/uc?id=1Fmj0OdxYojhlIRFVeTbyiTr-2SYj3qNU",
@@ -35,8 +35,8 @@ const productList = [
         link: "https://peakodev.github.io/PeaSocialProfile/"
     },
     {
-        avt: "https://drive.google.com/uc?id=1VDQMkGlwHlvE0tZRRZezEwNr2OX4aF-r",
-        link: "https://peakodev.github.io/PeaTasks/"
+        avt: "https://drive.google.com/uc?id=1UB_-vqkYW1TMCPFrRBPkroI3x7aAvK7_",
+        link: "https://peakodev.github.io/PeaDayTasks/"
     },
     {
         avt: "https://drive.google.com/uc?id=1zTtVai4ezfZA4CO-FyLkOnVsnCKE3M2H",
