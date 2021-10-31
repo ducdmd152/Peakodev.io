@@ -3,16 +3,16 @@ const $$ = document.querySelectorAll.bind(document);
 
 const productList = [
     {
+        avt: "https://drive.google.com/uc?id=1UB_-vqkYW1TMCPFrRBPkroI3x7aAvK7_",
+        link: "https://peakodev.github.io/PeaDayTasks/"
+    },
+    {
+        avt: "https://drive.google.com/uc?id=1Fmj0OdxYojhlIRFVeTbyiTr-2SYj3qNU",
+        link: "https://peakodev.github.io/PeaFashionStore/"
+    },
+    {
         avt: "https://drive.google.com/uc?id=18u6XDISidqm4AVMEeiMkUV4RCAgL2OJ0",
         link: "https://peakodev.github.io/PeaClock/"
-    },
-    {
-        avt: "https://drive.google.com/uc?id=1qH7r7z6AXWawgyojAyBSomaswyzwpVWo",
-        link: "https://peakodev.github.io/PeaMusicPlayer/"
-    },
-    {
-        avt: "./assets/img/PeaSocialProfile.png",
-        link: "https://peakodev.github.io/PeaSocialProfile/"
     },
     {
         avt: "https://drive.google.com/uc?id=10ohFOfq261giBJdbEMbUp3mGCf2GQmwy",
@@ -27,6 +27,14 @@ const productList = [
         link: "https://peakodev.github.io/PeaCalculator/"
     },
     {
+        avt: "https://drive.google.com/uc?id=1qH7r7z6AXWawgyojAyBSomaswyzwpVWo",
+        link: "https://peakodev.github.io/PeaMusicPlayer/"
+    },
+    {
+        avt: "./assets/img/PeaSocialProfile.png",
+        link: "https://peakodev.github.io/PeaSocialProfile/"
+    },
+    {
         avt: "https://drive.google.com/uc?id=1VDQMkGlwHlvE0tZRRZezEwNr2OX4aF-r",
         link: "https://peakodev.github.io/PeaTasks/"
     },
@@ -38,18 +46,10 @@ const productList = [
         avt: "https://drive.google.com/uc?id=1HcN07tyFCdgUE9liS5nvtsKieqiNkt9O",
         link: "https://peakodev.github.io/PeaCaro/"
     },
-    {
-        avt: "https://drive.google.com/uc?id=1Fmj0OdxYojhlIRFVeTbyiTr-2SYj3qNU",
-        link: "https://peakodev.github.io/PeaFashionStore/"
-    },
     // {
     //    avt: "https://drive.google.com/uc?id=1fJ6DpAuqBN0jwhbdyMO_Z_7n4dEsqqvq",
     //    link: "https://peakodev.github.io/ShopeeUI/"
     //},
-    {
-        avt: "https://drive.google.com/uc?id=1UB_-vqkYW1TMCPFrRBPkroI3x7aAvK7_",
-        link: "https://peakodev.github.io/PeaDayTasks/"
-    },
     {
         avt: "https://drive.google.com/uc?id=1fhPx2VzgYXNVEjfS4OAJgesaBmJvn8mk",
         link: "https://peakodev.github.io/PeaGoDrag/"
